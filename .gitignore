@@ -1,5 +1,6 @@
 # Ignore specific files/folders
 pak0.pak
+q2admin.txt
 *.log
 .syshistory
 logs/

@@ -18,7 +18,7 @@ zbotdetect  "No"
 ; Quake2 Client Admin password.
 ; To enable uncomment and change the password to something else.
 ;
-adminpassword "zdWxSTFF7HUNqInG4"
+adminpassword ""
 
 ;
 ; Only for use in windows.
