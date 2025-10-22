@@ -1,11 +1,11 @@
-.htaccess
-css.php
-rpc/
-sites/site*/admin/
-sites/site*/private/
-sites/site*/public/admin/
-sites/site*/public/setup/
-sites/site*/public/theme/
-textpattern/
-HISTORY.txt
-README.txt
+# Ignore OZ Quake II config files
+ozq2_*
+
+# (Optional) ignore backup or temporary files
+*.bak
+*.tmp
+*~
+
+# Ignore other specific files by name:
+# my_secret.cfg
+# test_server.cfg
