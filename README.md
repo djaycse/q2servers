@@ -39,7 +39,7 @@ set referee_password "..."
 The .cfg files in this repository have a 'Last updated' string at the top of the file, which gets automatically updated upon commit of the file.
 
 This can be done via a pre-commit hook with the following code:
-`
+```bash
 #!/bin/bash
 
 # Automatically update timestamp and author in .cfg files before commit
@@ -59,11 +59,10 @@ for file in $(git diff --cached --name-only --diff-filter=ACM | grep '\.cfg$'); 
         git add "$file"
     fi
 done
-`
+```
 
 # Change log
 
-Version 1.0
-
+## Version 1.0
 - First release.
 - Linux-based scripts (Windows batch files coming later).
