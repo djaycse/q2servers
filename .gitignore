@@ -4,6 +4,8 @@ ozq2_*
 logs/
 highscores/
 save/
+home*
+ozqii*
 
 # (Optional) ignore backup or temporary files
 *.bak
