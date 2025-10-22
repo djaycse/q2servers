@@ -1,5 +1,5 @@
 #!/bin/bash
-./kill_all.sh &&
-./backup_all.sh &&
-./dell_logs_all.sh &&
-./start_all.sh
+./sh/kill_all.sh
+./sh/backup_all.sh
+./sh/dell_logs_all.sh
+./sh/start_all.sh
