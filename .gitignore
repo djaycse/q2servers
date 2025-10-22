@@ -1,5 +1,5 @@
 # Ignore specific files/folders
-ozq2_*
+pak0.pak
 *.log
 logs/
 highscores/
