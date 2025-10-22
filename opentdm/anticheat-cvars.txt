@@ -1,0 +1,58 @@
+// --------------------------------
+// Client cvar checks by anticheat
+// --------------------------------
+// Do NOT change the name of this file!
+// See http://www.r1ch.net/forum/index.php?board=9.0
+// --> Server admin sub-forum.
+// You have to be authorized by R1CH to enter this sub-forum.
+
+// Force offensive player names to presets
+name	~	fuck	isuk
+name	~	fuk	isuk
+name	~	fark	isuk
+name	~	shit	isuk
+name	~	sh1t	isuk
+name	~	fag	isuk
+name	~	f4g	isuk
+name	~	gay	isuk
+name	~	g4y	isuk
+name	~	dick	isuk
+name	~	d1ck	isuk
+name	~	dik	isuk
+name	~	d1k	isuk
+name	~	nigger	isuk
+name	~	nigga	isuk
+name	~	n1gger	isuk
+name	~	n1gga	isuk
+name	~	n1gg3r	isuk
+name	~	n1gg4	isuk
+name	~	nigg3r	isuk
+name	~	nigg4	isuk
+name	~	asshole	isuk
+
+//gl_driver	ne	opengl32	opengl32
+//vid_ref	ne	soft,gl,r1gl	gl
+timescale	!=	1	1
+cl_maxfps	>	200	200
+cl_maxfps	<	20	20
+cl_nodelta	!=	0	0
+cl_predict	!=	1	1
+rate	<	0	0
+rate	>	25000	25000
+gl_clear	!=	0	0
+gl_lockpvs	!=	0	0
+gl_lightmap	!=	0	0
+r_drawworld	!=	1	1
+
+vid_gamma	<	0	0
+vid_gamma	>	1	1
+
+cl_testblend	!=	0	0
+cl_blend	!=	1	1
+cl_pitchspeed	!=	150	150
+
+r_hwGamma	!=	0	0
+cg_thirdPerson	!=	0	0
+cg_thirdPersonAngle	!=	30	30
+cg_thirdPersonClip	!=	1	1
+cg_thirdPersonDist	!=	50	50

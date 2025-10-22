@@ -1,0 +1,18 @@
+#!/bin/sh
+
+if [ -f q2admin.so ];
+then
+	mv gamex86_64.so gamex86_64.real.so
+	mv q2admin.so gamex86_64.so
+	echo "Installed q2admin"
+else
+if [ -f gamex86_64.real.so ];
+then
+	mv gamex86_64.so q2admin.so
+	mv gamex86_64.real.so gamex86_64.so
+	echo "UnInstalled q2admin"
+else
+	echo "q2admin.so not found"
+fi
+fi
+

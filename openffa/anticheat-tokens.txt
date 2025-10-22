@@ -1,0 +1,9 @@
+// --------------------------------
+// Anticheat tokens
+// --------------------------------
+// Do NOT change the name of this file!
+// See http://www.r1ch.net/forum/index.php?board=9.0
+// --> Server admin sub-forum.
+// You have to be authorized by R1CH to enter this sub-forum.
+
+// client must set actoken <token> before connecting

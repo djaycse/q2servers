@@ -1,0 +1,1 @@
+kill `ps aux | grep SCREEN|egrep 'q2pro|r1q2' | grep -v grep | awk '{print $2}'`

@@ -1,0 +1,187 @@
+
+//female
+players/female/tris.md2	4e521251e71d17bd7b5b20078898facb1038065b
+players/female/w_bfg.md2	8c49eb29faccc5195a5d16f2af4186d3520ef096
+players/female/w_blaster.md2	de2eec639f8f3047e5b1aa22e5df8e8ba0d39af6
+players/female/w_chainfist.md2	2254492e9f9062d9724356058e23cf18899317d4
+players/female/w_chaingun.md2	683e243c66b0919ed4a612a3a59270aba79d4789
+players/female/w_disrupt.md2	6cd635c256973ee4c7c4173e05e1d700d99c51ae
+players/female/w_etfrifle.md2	96b3560168b7061d2ffeeec3856808bcf130fbfc
+players/female/w_glauncher.md2	288dd539ca2f892bfa10e9eaf4145b87e7f25fce
+players/female/w_grapple.md2	629f05dba6b5ba162b9477cfbef56f51deb604c1
+players/female/w_hyperblaster.md2	15f62707eaf9475f9e37d65fd21fe5742a826d9e
+players/female/w_machinegun.md2	94e2cf611226759b6f29e0b44851e3e10e82f51a
+players/female/w_phalanx.md2	e59f74cbd82351938e84393683e857a8fe08dac2
+players/female/w_plasma.md2	103d8e4dd177bd432eca49cba0fdaf3132e65a84
+players/female/w_plauncher.md2	945709d02fcce45482764e0bc61e11ce63f2897d
+players/female/w_railgun.md2	40f87ce2c439b7863b4be63f1a1f294606352c8d
+players/female/w_ripper.md2	01b2c61235d1e8d1617b6167048f4f6c0cb17504
+players/female/w_rlauncher.md2	8c49ba6bb7ef7ccafb861b3a3517a1641ac334c6
+players/female/w_shotgun.md2	6d690918f2fdd52af5eae345e283fde469d37ad3
+players/female/w_sshotgun.md2	ac04974b999762a159588c8e4a48372e71c9abac
+players/female/weapon.md2	6d690918f2fdd52af5eae345e283fde469d37ad3
+players/female/a_grenades.md2	725d79083c7d4ab7adc1aabc7200574f3c35b4e6
+
+players/*/tris.md2	4e521251e71d17bd7b5b20078898facb1038065b
+players/*/w_bfg.md2	8c49eb29faccc5195a5d16f2af4186d3520ef096
+players/*/w_blaster.md2	de2eec639f8f3047e5b1aa22e5df8e8ba0d39af6
+players/*/w_chainfist.md2	2254492e9f9062d9724356058e23cf18899317d4
+players/*/w_chaingun.md2	683e243c66b0919ed4a612a3a59270aba79d4789
+players/*/w_disrupt.md2	6cd635c256973ee4c7c4173e05e1d700d99c51ae
+players/*/w_etfrifle.md2	96b3560168b7061d2ffeeec3856808bcf130fbfc
+players/*/w_glauncher.md2	288dd539ca2f892bfa10e9eaf4145b87e7f25fce
+players/*/w_grapple.md2	629f05dba6b5ba162b9477cfbef56f51deb604c1
+players/*/w_hyperblaster.md2	15f62707eaf9475f9e37d65fd21fe5742a826d9e
+players/*/w_machinegun.md2	94e2cf611226759b6f29e0b44851e3e10e82f51a
+players/*/w_phalanx.md2	e59f74cbd82351938e84393683e857a8fe08dac2
+players/*/w_plasma.md2	103d8e4dd177bd432eca49cba0fdaf3132e65a84
+players/*/w_plauncher.md2	945709d02fcce45482764e0bc61e11ce63f2897d
+players/*/w_railgun.md2	40f87ce2c439b7863b4be63f1a1f294606352c8d
+players/*/w_ripper.md2	01b2c61235d1e8d1617b6167048f4f6c0cb17504
+players/*/w_rlauncher.md2	8c49ba6bb7ef7ccafb861b3a3517a1641ac334c6
+players/*/w_shotgun.md2	6d690918f2fdd52af5eae345e283fde469d37ad3
+players/*/w_sshotgun.md2	ac04974b999762a159588c8e4a48372e71c9abac
+players/*/weapon.md2	6d690918f2fdd52af5eae345e283fde469d37ad3
+players/*/a_grenades.md2	725d79083c7d4ab7adc1aabc7200574f3c35b4e6
+
+
+//male
+players/male/tris.md2	aad2399af446673a88c6aaffef744b323f4fdb8a
+players/male/w_bfg.md2	08cd3df6f04daecbbf423b55080b7966daba2fa3
+players/male/w_blaster.md2	11f153e211545085fef8bc71173e1120f6e12bab
+players/male/w_chainfist.md2	4dc53a650bd2693bf6ae80bbcb15860332ded85a
+players/male/w_chaingun.md2	dea4578bf0e3048cd23f48ff4ed913f4c37cc161
+players/male/w_disrupt.md2	798a68866956e1b8cac315241824f5091714d849
+players/male/w_etfrifle.md2	a2609f78911266e33bbf46917e882a5c31466291
+players/male/w_glauncher.md2	07ceb23f044f41fd9d0e0ceea1277b032933529a
+players/male/w_grapple.md2	9afff991c834e4c5c016d314ae0bf68440f6311e
+players/male/w_hyperblaster.md2	1fec9d29a891985bead7de588bc5ccf154d36109
+players/male/w_machinegun.md2	9da211e0d5318636d32a9a93990f676fce14f1bd
+players/male/w_phalanx.md2	3091c94fc0176657c225b001e3c57305edf4a1c0
+players/male/w_plasma.md2	f3a177117f12863d9e829d9beaaa42e0cb57b48b
+players/male/w_plauncher.md2	c4627faae8529371b8bb6acbd54d0674541dd492
+players/male/w_railgun.md2	3d3d7370dbb2a8cae18f40149f2ab58abfc90e97
+players/male/w_ripper.md2	00de49a187f59804d1fb92b8b0fa54fa9d1aed9b
+players/male/w_rlauncher.md2	95017fe5fc294b0af3017c1d02e51aa783e9777e
+players/male/w_shotgun.md2	56f77c1121dd9fde187529a37723420703a2a74a
+players/male/w_sshotgun.md2	7e2d56deee8cf4efa08374998f67fe3c10efd6b6
+players/male/weapon.md2	56f77c1121dd9fde187529a37723420703a2a74a
+players/male/a_grenades.md2	fd120f6d3ef83c2d65b367aa720a77c389cda5dd
+
+players/*/tris.md2	aad2399af446673a88c6aaffef744b323f4fdb8a
+players/*/w_bfg.md2	08cd3df6f04daecbbf423b55080b7966daba2fa3
+players/*/w_blaster.md2	11f153e211545085fef8bc71173e1120f6e12bab
+players/*/w_chainfist.md2	4dc53a650bd2693bf6ae80bbcb15860332ded85a
+players/*/w_chaingun.md2	dea4578bf0e3048cd23f48ff4ed913f4c37cc161
+players/*/w_disrupt.md2	798a68866956e1b8cac315241824f5091714d849
+players/*/w_etfrifle.md2	a2609f78911266e33bbf46917e882a5c31466291
+players/*/w_glauncher.md2	07ceb23f044f41fd9d0e0ceea1277b032933529a
+players/*/w_grapple.md2	9afff991c834e4c5c016d314ae0bf68440f6311e
+players/*/w_hyperblaster.md2	1fec9d29a891985bead7de588bc5ccf154d36109
+players/*/w_machinegun.md2	9da211e0d5318636d32a9a93990f676fce14f1bd
+players/*/w_phalanx.md2	3091c94fc0176657c225b001e3c57305edf4a1c0
+players/*/w_plasma.md2	f3a177117f12863d9e829d9beaaa42e0cb57b48b
+players/*/w_plauncher.md2	c4627faae8529371b8bb6acbd54d0674541dd492
+players/*/w_railgun.md2	3d3d7370dbb2a8cae18f40149f2ab58abfc90e97
+players/*/w_ripper.md2	00de49a187f59804d1fb92b8b0fa54fa9d1aed9b
+players/*/w_rlauncher.md2	95017fe5fc294b0af3017c1d02e51aa783e9777e
+players/*/w_shotgun.md2	56f77c1121dd9fde187529a37723420703a2a74a
+players/*/w_sshotgun.md2	7e2d56deee8cf4efa08374998f67fe3c10efd6b6
+players/*/weapon.md2	56f77c1121dd9fde187529a37723420703a2a74a
+players/*/a_grenades.md2	fd120f6d3ef83c2d65b367aa720a77c389cda5dd
+
+
+//Cyborg
+players/cyborg/tris.md2	5ae8cbfb12fd61ee35bc83feaee85595430efef8
+players/cyborg/w_bfg.md2	08cd3df6f04daecbbf423b55080b7966daba2fa3
+players/cyborg/w_blaster.md2	11f153e211545085fef8bc71173e1120f6e12bab
+players/cyborg/w_chainfist.md2	4dc53a650bd2693bf6ae80bbcb15860332ded85a
+players/cyborg/w_chaingun.md2	dea4578bf0e3048cd23f48ff4ed913f4c37cc161
+players/cyborg/w_disrupt.md2	798a68866956e1b8cac315241824f5091714d849
+players/cyborg/w_etfrifle.md2	a2609f78911266e33bbf46917e882a5c31466291
+players/cyborg/w_glauncher.md2	07ceb23f044f41fd9d0e0ceea1277b032933529a
+players/cyborg/w_grapple.md2	9afff991c834e4c5c016d314ae0bf68440f6311e
+players/cyborg/w_hyperblaster.md2	1fec9d29a891985bead7de588bc5ccf154d36109
+players/cyborg/w_machinegun.md2	9da211e0d5318636d32a9a93990f676fce14f1bd
+players/cyborg/w_phalanx.md2	3091c94fc0176657c225b001e3c57305edf4a1c0
+players/cyborg/w_plasma.md2	f3a177117f12863d9e829d9beaaa42e0cb57b48b
+players/cyborg/w_plauncher.md2	c4627faae8529371b8bb6acbd54d0674541dd492
+players/cyborg/w_railgun.md2	3d3d7370dbb2a8cae18f40149f2ab58abfc90e97
+players/cyborg/w_ripper.md2	00de49a187f59804d1fb92b8b0fa54fa9d1aed9b
+players/cyborg/w_rlauncher.md2	95017fe5fc294b0af3017c1d02e51aa783e9777e
+players/cyborg/w_shotgun.md2	56f77c1121dd9fde187529a37723420703a2a74a
+players/cyborg/w_sshotgun.md2	7e2d56deee8cf4efa08374998f67fe3c10efd6b6
+players/cyborg/weapon.md2	9fc7c02155847f45ed0a1497b9d3e38ae7a21e50
+players/cyborg/a_grenades.md2	fd120f6d3ef83c2d65b367aa720a77c389cda5dd
+
+players/*/tris.md2	5ae8cbfb12fd61ee35bc83feaee85595430efef8
+players/*/w_bfg.md2	08cd3df6f04daecbbf423b55080b7966daba2fa3
+players/*/w_blaster.md2	11f153e211545085fef8bc71173e1120f6e12bab
+players/*/w_chainfist.md2	4dc53a650bd2693bf6ae80bbcb15860332ded85a
+players/*/w_chaingun.md2	dea4578bf0e3048cd23f48ff4ed913f4c37cc161
+players/*/w_disrupt.md2	798a68866956e1b8cac315241824f5091714d849
+players/*/w_etfrifle.md2	a2609f78911266e33bbf46917e882a5c31466291
+players/*/w_glauncher.md2	07ceb23f044f41fd9d0e0ceea1277b032933529a
+players/*/w_grapple.md2	9afff991c834e4c5c016d314ae0bf68440f6311e
+players/*/w_hyperblaster.md2	1fec9d29a891985bead7de588bc5ccf154d36109
+players/*/w_machinegun.md2	9da211e0d5318636d32a9a93990f676fce14f1bd
+players/*/w_phalanx.md2	3091c94fc0176657c225b001e3c57305edf4a1c0
+players/*/w_plasma.md2	f3a177117f12863d9e829d9beaaa42e0cb57b48b
+players/*/w_plauncher.md2	c4627faae8529371b8bb6acbd54d0674541dd492
+players/*/w_railgun.md2	3d3d7370dbb2a8cae18f40149f2ab58abfc90e97
+players/*/w_ripper.md2	00de49a187f59804d1fb92b8b0fa54fa9d1aed9b
+players/*/w_rlauncher.md2	95017fe5fc294b0af3017c1d02e51aa783e9777e
+players/*/w_shotgun.md2	56f77c1121dd9fde187529a37723420703a2a74a
+players/*/w_sshotgun.md2	7e2d56deee8cf4efa08374998f67fe3c10efd6b6
+players/*/weapon.md2	9fc7c02155847f45ed0a1497b9d3e38ae7a21e50
+players/*/a_grenades.md2	fd120f6d3ef83c2d65b367aa720a77c389cda5dd
+
+
+//Crackhor
+players/crakhor/tris.md2	e8c41ecbfb00e098acbaef330ad7a6cdf367a473
+players/crakhor/w_bfg.md2	ff3f87bbc6f81a346946967b08194dcb19dd90c0
+players/crakhor/w_blaster.md2	82547a076343e4d38388d5fe43f087ec1e7e711f
+players/crakhor/w_chainfist.md2	0116b596182426aea02abf89befa515325c2b662
+players/crakhor/w_chaingun.md2	5d28ba8725aa728d5c3d026c7910257b538021a9
+players/crakhor/w_disrupt.md2	9b7c8c3cf96d763d46c23e6a3c16137a025e6147
+players/crakhor/w_etfrifle.md2	365e591bd95b62b8034046f6f768a1a33470aadd
+players/crakhor/w_glauncher.md2	8a58109811cfd7ecf20900dc2bb4d279d4774f9e
+players/crakhor/w_grapple.md2	2ffc112213bc0f280514744d18b31cedae7f79fa
+players/crakhor/w_hyperblaster.md2	63e951442347636a7474ea722e6580b55ce4b613
+players/crakhor/w_machinegun.md2	5e6697c455f423ef054462a310eb6b8befbbe77d
+players/crakhor/w_phalanx.md2	d648fc337e074148911d9dfb8cdc124c44b8b379
+players/crakhor/w_plasma.md2	360b20927ceaf54e867ab3534852aed0272c048a
+players/crakhor/w_plauncher.md2	07be8d78d58a65a0f93fa39366ec2cc68f66cbd3
+players/crakhor/w_railgun.md2	a7cb98a5f65ab1aef96b88c1584db60f9517774d
+players/crakhor/w_ripper.md2	4a8deca18dcda01edc400be57f9441638d283244
+players/crakhor/w_rlauncher.md2	f114eb10db9085a29dc97dbbdd7d60273111ceb5
+players/crakhor/w_shotgun.md2	949e6e875e8f95616136142faf561f5cf86fbe91
+players/crakhor/w_sshotgun.md2	a796f21cbbba8894ee0e0c75d0ae8a9b55cc90d7
+players/crakhor/weapon.md2	949e6e875e8f95616136142faf561f5cf86fbe91
+
+players/*/tris.md2	e8c41ecbfb00e098acbaef330ad7a6cdf367a473
+players/*/w_bfg.md2	ff3f87bbc6f81a346946967b08194dcb19dd90c0
+players/*/w_blaster.md2	82547a076343e4d38388d5fe43f087ec1e7e711f
+players/*/w_chainfist.md2	0116b596182426aea02abf89befa515325c2b662
+players/*/w_chaingun.md2	5d28ba8725aa728d5c3d026c7910257b538021a9
+players/*/w_disrupt.md2	9b7c8c3cf96d763d46c23e6a3c16137a025e6147
+players/*/w_etfrifle.md2	365e591bd95b62b8034046f6f768a1a33470aadd
+players/*/w_glauncher.md2	8a58109811cfd7ecf20900dc2bb4d279d4774f9e
+players/*/w_grapple.md2	2ffc112213bc0f280514744d18b31cedae7f79fa
+players/*/w_hyperblaster.md2	63e951442347636a7474ea722e6580b55ce4b613
+players/*/w_machinegun.md2	5e6697c455f423ef054462a310eb6b8befbbe77d
+players/*/w_phalanx.md2	d648fc337e074148911d9dfb8cdc124c44b8b379
+players/*/w_plasma.md2	360b20927ceaf54e867ab3534852aed0272c048a
+players/*/w_plauncher.md2	07be8d78d58a65a0f93fa39366ec2cc68f66cbd3
+players/*/w_railgun.md2	a7cb98a5f65ab1aef96b88c1584db60f9517774d
+players/*/w_ripper.md2	4a8deca18dcda01edc400be57f9441638d283244
+players/*/w_rlauncher.md2	f114eb10db9085a29dc97dbbdd7d60273111ceb5
+players/*/w_shotgun.md2	949e6e875e8f95616136142faf561f5cf86fbe91
+players/*/w_sshotgun.md2	a796f21cbbba8894ee0e0c75d0ae8a9b55cc90d7
+players/*/weapon.md2	949e6e875e8f95616136142faf561f5cf86fbe91
+
+
+//Spiked Rockets
+// NOTE: quadz 080111 -- I have hires model pak... this triggers :-/
+// models/objects/rocket/tris.md2	9e29d53020984dc853b541c4a8a0a7eaac042fe0
+

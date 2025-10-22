@@ -1,0 +1,13 @@
+// --------------------------------
+// Hash checks by anticheat
+// --------------------------------
+// Do NOT change the name of this file!
+// See http://www.r1ch.net/forum/index.php?board=9.0
+// --> Server admin sub-forum.
+// You have to be authorized by R1CH to enter this sub-forum.
+
+!File checks v0.1
+\include hashes/spikedmodels.hashes
+\include hashes/sounds.hashes
+\include hashes/vwep_missing.hashes
+\include hashes/vwep_patch.hashes

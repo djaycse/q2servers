@@ -1,5 +1,9 @@
-# Ignore OZ Quake II config files
+# Ignore specific files/folders
 ozq2_*
+*.log
+logs/
+highscores/
+save/
 
 # (Optional) ignore backup or temporary files
 *.bak
