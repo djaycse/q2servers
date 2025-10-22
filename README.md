@@ -35,6 +35,32 @@ set sv_reserved_password "..."
 set referee_password "..."
 ```
 
+# Synchronising with remote repository
+The .cfg files in this repository have a 'Last updated' string at the top of the file, which gets automatically updated upon commit of the file.
+
+This can be done via a pre-commit hook with the following code:
+`
+#!/bin/bash
+
+# Automatically update timestamp and author in .cfg files before commit
+
+for file in $(git diff --cached --name-only --diff-filter=ACM | grep '\.cfg$'); do
+    if [ -f "$file" ]; then
+        author=$(git config user.name)
+        timestamp=$(date +"%Y-%m-%d %H:%M:%S")
+
+        # Ensure Windows-safe sed (uses Git Bash sed)
+        if grep -q "^# Last modified:" "$file"; then
+            sed -i "1s|^# Last modified:.*|# Last modified: $timestamp by $author|" "$file"
+        else
+            sed -i "1i # Last modified: $timestamp by $author" "$file"
+        fi
+
+        git add "$file"
+    fi
+done
+`
+
 # Change log
 
 Version 1.0
