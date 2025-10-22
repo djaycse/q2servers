@@ -1,6 +1,7 @@
 # Ignore specific files/folders
 pak0.pak
 *.log
+.syshistory
 logs/
 highscores/
 save/
