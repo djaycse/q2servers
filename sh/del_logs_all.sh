@@ -1,6 +1,6 @@
 rm openffa/*.log
-rm openffa/logs
+rm -r openffa/logs
 rm opentdm/*.log
-rm opentdm/logs
+rm -r opentdm/logs
 rm tourney-insta/*.log
-rm tourney-ffa/*.log
+rm -r tourney-ffa/*.log
