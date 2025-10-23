@@ -1,0 +1,187 @@
+>>> Copy from http://tastyspleen.net/~quake2/r1q2.cfg as at 23 Oct 2025.
+
+//r1q2 dedicated server cvars and settings
+
+//sv_locked [0/1]
+//Lock the server - prevents new players from joining.
+
+//sv_restartmap [string]
+//If the game dll crashes, try to restart the server on this mapname (eg set sv_restartmap gloom)
+
+//sv_password [string]
+//Password required to connect to the server (server-side setting rather than in the mod)
+
+//sv_filter_q3names [0/1]
+//Filter the ^5A^2nnoy^8in^1g ^7Q3^0 style names.
+
+//sv_filter_userinfo [0/1/2]
+//Filter low value ASCII chars from userinfo. Set to 2 to filter high ASCII (colortext) also.
+
+//sv_filter_stringcmds [0/1/2]
+//Filter low value ASCII chars from commands (eg cmd say). Set to 2 to filter high ASCII (colortext) also.
+
+//sv_blackholes [0/1]
+//Enable automatic blocking of players who attempt to crash the server and such.
+
+//sv_allownodelta [0/1]
+//Allow use of cl_nodelta (makes the client consume much more bandwidth if enabled)
+
+//sv_deny_q2ace [0/1]
+//Deny Q2ace clients (a q2ace GL hack exists)
+
+//sv_iplimit [integer]
+//Number of connections to allow from a single IP.
+
+//sv_connectmessage [string]
+//Text to show the user as they are connecting. Use \n for a newline.
+
+//sv_nc_visibilitycheck [0/1/2]
+//Enable NoCheat-style visibility checks to prevent wallhacks. Note, this uses a lot of CPU time and can cause people to not see ents that they should be seeing. Set to 2 to never send the entity, 1 to hide it.
+
+//sv_nc_clientsonly [0/1]
+//Only apply NC visibility check to clients (applying to all ents will use shitloads of CPU)
+
+//sv_max_download_size [integer]
+//Maximum size in bytes of files to allow autodownload of
+
+//sv_max_netdrop [integer]
+//Maximum number of backed-up move packets a client can have.
+
+//sv_hidestatus [0/1]
+//Don't respond to status requests (eg from server browsers)
+
+//sv_hideplayers [0/1]
+//Don't show player's info in status requests
+
+//sv_fpsflood [integer]
+//Kick users who are sending over this many packets/sec (hacked FPS). Might still be buggy, use with caution. Seems to be working better in b1788+.
+
+//sv_randomframe [0/1]
+//Randomize server framenum to thwart map timers. Buggy, can cause random client drops on map change. Works correctly in b1950+.
+
+//sv_gamedebug [integer]
+//Cause a debug breakpoint on Game DLL errors. Higher values break on more pedantic issues. Set to 0 for normal server usage.
+
+//sv_msecs [integer]
+//Milliseconds of movement to allow each client per 1.6 seconds.
+
+//sv_recycle [0/1]
+//Will reload the Game DLL from gamexxx.ext.new on next map change if set to 1. Useful to update the game dll without kicking everyone off the server.
+
+//sv_nc_kick [bitmask]
+//Kick users not matching NoCheat settings:
+//(add up the following values you want to use and set sv_nc_kick to this)
+//1 - require nocheat code
+//2 - require nocheat video check to pass
+//4 - require nocheat model check to pass
+//8 - require nocheat video check to pass
+//256 - kick any nocheat users
+
+
+//Note that sv_nc_kick simply inspects the NoCheat say string. It is trivial to bypass and is not intended as an anti-cheat measure.
+
+//sv_nc_announce [bitmask]
+//Announce NoCheat kicks of clients matching these bitmasks (see above). Exception, bitmask 128 will announce if a user has passed all NoCheat settings.
+
+//sv_filter_nocheat_spam [0/1]
+//Prevent NoCheat messages from being sent. Note this will break how NoCheat clients authenticate each other!
+
+//sv_uptime [0/1/2]
+//Show server uptime in serverinfo. 1 uses human readble "x days, x hours, xmins" format, 2 uses compact "days+hrs:min:sec" format.
+
+
+//sv_strafejump_hack [0/1]
+//Set to 1 to disable the code that limits strafe jumping at high FPS. Will cause prediction misses on the client.
+
+//sv_reserved_slots [integer]
+//Number of reserved slots to include. Note that these are taken away from maxclients, not added. Not recommended to be used in conjunction with other forms of reserved slots in mods/q2admin/etc.
+
+//sv_reserved_password [string]
+//Password required to use a reserved slot, set by client 'password' cvar.
+
+//sv_allow_map [0/1]
+//Control use of the 'map' command after a Game DLL has loaded.
+//sv_allow_map 1
+
+//sv_allow_unconnected_cmds [0/1]
+//Allow partially connected clients to send commands to the Game DLL. This was allowed in Q2 3.2x, it is now an option and default disabled as not all mods take into account that commands can be used by people still in the process of connecting, leading to undefined behaviour.
+
+//sv_strict_userinfo_check [0/1]
+//Set to 1 to force strict check on userinfo for non-standard bytes. Recommended, will break some "fun names" though.
+
+//sv_calcpings_method [0/1/2]
+//Change how pings are calculated:
+//0: Disable reporting of pings completely.
+//1: Standard Q2 method (averaging).
+//2: New R1Q2 method, best case minimum. Results in pings much closer to what external programs such as server browsers report and is influenced much less by the client's packet rate.
+//sv_calcpings_method 2
+
+//sv_no_game_serverinfo [0/1]
+//Allow or disallow the Game DLL to set serverinfo cvars. Some mods fill up serverinfo too much with useless information causing less space for player status etc. Well it was requested so it's here .
+
+//sv_mapdownload_denied_message [string]
+//Message to send to clients if they attempt to download a map when map downloading is disabled. This is useful to direct them to a website where they can get the map for example. Supports \n for a new line.
+
+//sv_mapdownload_ok_message [string]
+//Message to send to clients when they start downloading a map. This is useful to direct them to a website where they can get the map quicker for example. Supports \n for a new line.
+
+//sv_max_traces_per_frame [integer]
+//Number of "traces" to allow per server frame. Traces are used by hitscan weapons and other things. Some mods however can go into infinite loops by calling the trace function over and over again when it keeps hitting the same object. This variable exists to prevent infinite loops by limiting the max. number of traces. Default is 10000, you should NOT need to touch this unless you are sure you know what you are doing.
+
+//sv_ratelimit_status [integer]
+//Maximum number of status requests per second to reply to. Default 15.
+
+//sv_new_entflags [0/1]
+//Support use of new R1Q2-specifc SVF_ entity flags. Should only be used if the mod you are using instructs you to use it. Default 0.
+
+//sv_validate_playerskins 0
+//Validate a player's skin before sending it to other clients. This replaces bad skins such as those with missing skin/model names, illegal characters, spaces and other such with "male/grunt". Highly recommended to leave enabled unless it is causing problems, as a malformed skin sent to a client can have negative consequences. Default 1.
+
+//sv_idlekick [integer]
+//Seconds before kicking idle players, 0 to disable. Default 0.
+
+//logfile_timestamp [0/1]
+//Add timestamp to log file entries. Default 1.
+
+//logfile_timestamp_format [string]
+//Formatting string to use for timestamp, expressed as a strftime string.
+
+//logfile_name
+//Name of the console logfile. Default qconsole.log.
+
+//logfile [0/1]
+//turn on logging
+
+//logfile_filterlevel
+//determines what to log
+//logfile_filterlevel 4096
+
+//lrcon_password [string]
+//Password for limited-rcon commands.
+
+//sv_force_reconnect [string]
+//Force an anti-proxy reconnect to this IP:PORT if set. Excludes private/LAN IPs and works much faster than other reconnect methods.
+// sv_force_reconnect 23.227.170.222:$port
+
+//sv_download_refuselimit [integer]
+//Refuse autodownload requests if there are more than this many players connected.
+
+//sv_download_drop_file [string]
+
+//sv_download_drop_message [string]
+
+//Kick a client off if they attempt to auto download the file named by sv_download_drop_file and send them the sv_download_drop_message text.
+
+//sv_packetentities_hack [0/1/2]
+//Now supports sv_packetentities_hack 2 for trying both a compressed packet and then a truncated packet.
+//sv_packetentities_hack 2
+
+//sv_blackhole_mask [integer]
+//Number of bits to use against the IP address for automatic blackholes. 32 means no change, 24 would do 1.2.3.*, 16 would do 1.2.*.*, etc. Read up on subnetting/CIDR if you want to fully understand how the number affects what parts of the address are used.
+
+//sv_strafejump_hack    1 = enable for proto 35 clients, 2 = all clients
+//sv_strafejump_hack 2
+
+//fs_cache 0
+
+//sv_entity_inuse_hack 0
