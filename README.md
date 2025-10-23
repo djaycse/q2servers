@@ -72,15 +72,15 @@ done
 ## Version 1.0
 - First release.
 - OpenFFA server uses:
-   - Q2PRO 64-bit binary (revision 3822, custom built)
-   - OpenFFA 64-bit binary (revision 304, custom built)
-   - NOTE: Doesn't seem to work with q2admin
+   - Q2PRO 64-bit binary (revision 3822)
+   - OpenFFA 64-bit binary (revision 204)
+   - NOTE: Doesn't seem to work with q2admin (client IP not valid error)
 - OpenTDM server uses:
-   - Q2PRO 64-bit binary (revision 3822, custom built)
-   - OpenTDM 64-bit binary (revision r23 ~2014)
-   - Q2Admin 1.7.44 (version 117_43 - obtained from Quadz/Tastyspleen??)
+   - Q2PRO 64-bit binary (revision 3822)
+   - OpenTDM 64-bit binary (revision r368 ~2014)
+   - Q2Admin 64-bit binary (revision 716)
 - OSP Tourney DM Ista-gib and FFA servers both use:
    - R1Q2 32-bit debug binary (revision 7864)
    - OSP TOurney DM 32-bit (version 2.5)
-   - Q2Admin 1.7.44 (version 117_43 - obtained from Quadz/Tastyspleen??)
+   - Q2Admin 32-bit (revision 117_43? - obtained from Quadz/Tastyspleen??)
 - Linux-based scripts (Windows batch files coming later).
